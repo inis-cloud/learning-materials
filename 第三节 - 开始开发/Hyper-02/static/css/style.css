@@ -1,0 +1,376 @@
+/*
+* Created by : Coderthemes Design LLP
+* File Description: Main Css 
+*/
+
+@import url(fonts.css);
+@import url(animation.css);
+
+
+/* General */
+body {
+    font-family: "hkgrotesk";
+    color: #374760;
+}
+
+::selection {
+    background: rgba(151, 160, 175, 0.5);
+    color: #ffffff;
+}
+
+::-moz-selection {
+    background: rgba(151, 160, 175, 0.5);
+    color: #ffffff;
+}
+
+/* Title */
+.sub-title {
+    max-width: 650px;
+    margin: 1rem auto;
+}
+
+.section {
+    padding: 6rem 0;
+}
+
+.title-section {
+    background-color: #fafaff;
+    padding: 175px 0px 130px;
+}
+
+.title-line {
+    margin: 20px auto 20px auto;
+    width: 50px;
+    height: 3px;
+    border-radius: 3px;
+    background-color: #2f75d0;
+}
+
+.port-title {
+    font-size: 36px;
+    line-height: 56px;
+}
+
+/* Card */
+.card {
+    border: none;
+}
+
+/* Text */
+.text-primary {
+    color: #2f75d0 !important;
+}
+
+/* Buttons */
+.btn {
+    box-shadow: none !important;
+    padding: 14px 22px;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.btn-sm {
+    padding: 7px 19px;
+}
+
+.btn-primary {
+    color: #ffffff;
+    background-color: #2f75d0 !important;
+    border-color: #2f75d0 !important;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.15) !important;
+}
+
+.btn-primary:hover {
+    background-color: #4c5667 !important;
+    border-color: #4c5667 !important;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.3) !important;
+}
+
+/* Shape Effect */
+.shape {
+    position: absolute;
+    pointer-events: none;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+}
+
+.shape>svg {
+    transform: scale(2);
+    width: 100%;
+    height: auto;
+    transform-origin: top center;
+}
+
+
+/* Navbar */
+.navbar-custom {
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+}
+
+.navbar-custom .navbar-nav li a {
+    margin: 5px 12px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 700;
+    color: #444444;
+    line-height: 30px;
+}
+
+.anim-item:after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #2f75d0;
+    margin: auto;
+    transition: all .5s ease;
+}
+
+.anim-item:hover:after {
+    width: 100%;
+}
+
+.navbar-custom .nav>li>a:focus,
+.navbar-custom .nav>li>a:hover {
+    background-color: transparent;
+}
+
+/* Hero */
+
+.hero-section {
+    background: url(../image/hero-bg.png) right no-repeat #fafaff;
+}
+
+.home-wrapper {
+    padding: 210px 0px 200px;
+}
+
+.home-wrapper h2 {
+    font-size: 42px;
+    line-height: 56px;
+}
+
+
+/* Services */
+
+.service-icon {
+    position: relative;
+}
+
+.service-icon i {
+    z-index: 10;
+    position: relative;
+    font-size: 36px;
+}
+
+.service-icon:after {
+    background-color: #ecf3fc;
+    left: -8px;
+    top: -5px;
+    width: 43.92px;
+    height: 43.92px;
+    content: "";
+    position: absolute;
+    border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+}
+
+/* Work */
+
+.work-section {
+    background: url(https://coderthemes.com/assets/images/bg-pattern);
+}
+
+.work-info h5 {
+    font-weight: 700;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+.work-info p {
+    font-size: 14px;
+}
+
+.product-img {
+    display: block;
+    background-color: rgba(116, 124, 243, 0.1);
+    border-radius: 5px;
+}
+
+.categories-filter li {
+    list-style: none;
+    margin: 0 20px;
+}
+
+.categories-filter li a {
+    cursor: pointer;
+    font-weight: 600;
+    display: block;
+    padding: 5px 0;
+    border-bottom: 2px solid transparent;
+}
+
+.categories-filter li a.active {
+    border-bottom-color: #2f75d0;
+    color: #2f75d0;
+}
+
+.product-card {
+    position: relative;
+}
+
+.product-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(34, 48, 80, 0.5);
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .3s ease;
+    border-radius: 5px;
+}
+
+.product-overlay .btn {
+    top: 50%;
+    margin-top: -18px;
+    position: relative;
+}
+
+.product-card:hover .product-overlay {
+    height: 100%;
+}
+
+/* Background */
+
+.bg-info-light {
+    background-color: rgba(80, 184, 221, 0.15);
+}
+
+.bg-warning-light {
+    background-color: rgba(255, 210, 85, 0.15);
+}
+
+.bg-success-light {
+    background-color: rgba(138, 216, 201, 0.15);
+}
+
+.bg-pink-light {
+    background-color: rgba(255, 138, 204, 0.12);
+}
+
+.bg-dark-light {
+    background-color: rgba(150, 167, 208, 0.1);
+}
+
+.bg-danger-light {
+    background-color: rgba(255, 88, 88, 0.1);
+}
+
+
+/* About Us */
+
+.about-title h2 {
+    line-height: 42px;
+}
+
+.about-title p {
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.about-title {
+    max-width: 800px;
+}
+
+
+/* Contact */
+
+label {
+    font-weight: 500;
+}
+
+.form-control {
+    box-shadow: none;
+    height: 44px;
+    max-width: 100%;
+    background-color: #f8f9fa;
+    border: 1px solid #edf0f3;
+    padding-left: 15px;
+    font-size: 14px;
+}
+
+.form-control:focus {
+    outline: none;
+    box-shadow: none;
+    background-color: #f8f9fa;
+    border: 1px solid #edf0f3;
+}
+
+.form-main {
+    padding-top: 30px;
+}
+
+.error {
+    padding: 8px 0 0;
+    display: none;
+    color: red;
+    font-size: 13px;
+}
+
+#ajaxsuccess {
+    font-size: 16px;
+    width: 100%;
+    display: none;
+    clear: both;
+    margin: 8px 0px;
+}
+
+.g-recaptcha>div {
+    margin: 0 auto;
+}
+
+::placeholder {
+    color: #bec6ce !important;
+}
+
+:-ms-input-placeholder {
+    color: #bec6ce !important;
+}
+
+::-ms-input-placeholder {
+    color: #bec6ce !important;
+}
+
+
+/* Footer */
+
+.footer {
+    padding: 5.5rem 0 3rem 0;
+}
+
+.footer-text {
+    color: #96a6b7;
+}
+
+.footer-icons li a {
+    height: 36px;
+    width: 36px;
+    color: #7c8bad;
+    text-align: center;
+    font-size: 16px;
+    display: inline-block;
+    line-height: 34px;
+    border-radius: 50%;
+    border: 1px solid rgba(124, 139, 173, 0.5);
+    transition: all 0.5s;
+}
