@@ -4,8 +4,25 @@
 
 ## 链接
 
-* B站视频教程：https://space.bilibili.com/10812729/video   
+* B站视频教程：[打开链接](//space.bilibili.com/10812729/video)   
 * inis 接口文档：[docs.inis.cc](//docs.inis.cc)   
 * inis 社区：[inis.cc](//inis.cc)   
 * 个人博客：[萌卜兔](//inis.cn)   
 * QQ群：632274746
+
+## 课程收获
+
+* 一个属于自己的博客
+* 对WEB前端开发有更深入的了解
+* 巩固 HTML + CSS + JavaScript 以及 Vue 和 Bootstrap 的知识点
+* 也许还会有其他的意外收获
+
+## 安装
+
+本课程基于 [inis](//inis.cc) 开发，需要 [inis api](//docs.inis.cc) 加持。（PS：好处是你不需要关心后端或后台的事情，因为这些事情全部交由 [inis](//inis.cc) 解决）   
+
+如未部署 [inis 系统](//inis.cc)，请移步至 [inis 安装教程](//inis.cn/article/1.html) 或 [演示站](//test.inis.cn)
+
+### 前期准备工作
+
+* 一个可以写代码的工具，如 [vs code](//code.visualstudio.com) （选择记事本的大佬请忽略这一步）   
