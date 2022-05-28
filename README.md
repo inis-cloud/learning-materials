@@ -1,2 +1,3 @@
-# learning-materials
-从零开发属于自己博客系列资料
+## 从零开发属于自己的博客
+
+> 本课程依赖 [inis api](//inis.cc)
