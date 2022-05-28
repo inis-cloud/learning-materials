@@ -4,5 +4,8 @@
 
 ## 链接
 
-B站视频教程：https://space.bilibili.com/10812729/video   
-inis 接口文档：[docs.inis.cc](//docs.inis.cc)
+* B站视频教程：https://space.bilibili.com/10812729/video   
+* inis 接口文档：[docs.inis.cc](//docs.inis.cc)   
+* inis 社区：[inis.cc](//inis.cc)   
+* 个人博客：[萌卜兔](//inis.cn)   
+* QQ群：632274746
