@@ -1,0 +1,9 @@
+.markdown img {
+    width: 100%;
+}
+.line-1 {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    -webkit-text-overflow: ellipsis;
+    overflow: hidden;
+}
