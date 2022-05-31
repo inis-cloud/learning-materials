@@ -1,0 +1,15 @@
+恭喜你，坚持到了最后，你是最棒的！
+我相信你能通过课程内的知识点进行灵活运用，开发出令自己满意的博客。
+
+最后，有什么问题可以通过下方资料进行查阅或咨询
+
+inis是新一代博客系统，内置丰富的API系统，自带多端（Web、APP和小程序）的博客系统，本课程带大家开发一个属于自己的博客
+
+inis社区：https://inis.cc
+inis api文档：https://docs.inis.cc
+个人博客：https://inis.cn
+QQ群：632274746
+
+课程源码已上传仓库：
+Gitee：https://gitee.com/inis-cloud/learning-materials
+GitHub：https://github.com/inis-cloud/learning-materials
